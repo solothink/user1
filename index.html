@@ -1,0 +1,826 @@
+<textarea name="text" cols="25" rows="5">
+    prgm01
+    <?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:background="#FFFFFF"
+     tools:context=".MainActivity">
+     <TextView
+     android:id="@+id/textView4"
+     android:layout_width="371dp"
+     android:layout_height="wrap_content"
+     android:layout_alignParentStart="true"
+     android:layout_alignParentLeft="true"
+     android:layout_alignParentEnd="true"
+     android:layout_alignParentRight="true"
+     android:layout_alignParentBottom="true"
+     android:layout_marginStart="28dp"
+     android:layout_marginLeft="28dp"
+     android:layout_marginEnd="12dp"
+     android:layout_marginRight="12dp"
+     android:layout_marginBottom="219dp"
+     android:text="Address:ASKB Campus, Anandnagar, | Bangalore - 560 024"
+     android:textAlignment="center"
+     android:textSize="24sp" />
+     <TextView
+     android:id="@+id/textView5"
+     android:layout_width="250dp"
+     android:layout_height="wrap_content"
+     android:layout_alignParentStart="true"
+     android:layout_alignParentLeft="true"
+     android:layout_alignParentEnd="true"
+     android:layout_alignParentRight="true"
+     android:layout_alignParentBottom="true"
+     android:layout_marginStart="87dp"
+     android:layout_marginLeft="87dp"
+     android:layout_marginEnd="73dp"
+     android:layout_marginRight="73dp"
+    android:layout_marginBottom="157dp"
+     android:text="Ph No: 9108380566"
+     android:textAlignment="center"
+     android:textSize="24sp" />
+     <TextView
+     android:id="@+id/textView6"
+     android:layout_width="367dp"
+     android:layout_height="wrap_content"
+     android:layout_alignParentStart="true"
+     android:layout_alignParentLeft="true"
+     android:layout_alignParentEnd="true"
+     android:layout_alignParentRight="true"
+     android:layout_alignParentBottom="true"
+     android:layout_marginStart="25dp"
+     android:layout_marginLeft="25dp"
+     android:layout_marginEnd="19dp"
+     android:layout_marginRight="19dp"
+     android:layout_marginBottom="64dp"
+     android:text="Email Id: uzma.sulthana@atria.edu"
+     android:textAlignment="center"
+     android:textSize="24sp" />
+     <TextView
+     android:id="@+id/textView3"
+     android:layout_width="367dp"
+     android:layout_height="66dp"
+     android:layout_alignParentStart="true"
+     android:layout_alignParentLeft="true"
+     android:layout_alignParentEnd="true"
+     android:layout_alignParentRight="true"
+     android:layout_alignParentBottom="true"
+     android:layout_marginStart="32dp"
+     android:layout_marginLeft="32dp"
+     android:layout_marginEnd="12dp"
+     android:layout_marginRight="12dp"
+     android:layout_marginBottom="287dp"
+     android:text="Assistant Professor-ISE"
+     android:textAlignment="center"
+     android:textSize="24sp" />
+     <ImageView
+     android:id="@+id/imageView3"
+     android:layout_width="155dp"
+     android:layout_height="98dp"
+     android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+     android:layout_alignParentBottom="true"
+     android:layout_marginEnd="12dp"
+     android:layout_marginRight="12dp"
+     android:layout_marginBottom="495dp"
+     app:srcCompat="@drawable/aitlogo" />
+     <View
+     android:id="@+id/view"
+     android:layout_width="wrap_content"
+     android:layout_height="4dp"
+     android:layout_alignParentBottom="true"
+     android:layout_marginBottom="487dp"
+     android:background="#4444" />
+     <TextView
+     android:id="@+id/textView2"
+     android:layout_width="176dp"
+     android:layout_height="wrap_content"
+     android:layout_alignParentStart="true"
+     android:layout_alignParentLeft="true"
+     android:layout_alignParentEnd="true"
+     android:layout_alignParentRight="true"
+     android:layout_alignParentBottom="true"
+     android:layout_marginStart="95dp"
+     android:layout_marginLeft="95dp"
+     android:layout_marginEnd="140dp"
+     android:layout_marginRight="140dp"
+     android:layout_marginBottom="401dp"
+     android:text="Uzma Sulthana"
+     android:textAlignment="center"
+     android:textSize="24sp"
+     android:textStyle="bold" />
+     <TextView
+     android:id="@+id/textView7"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentBottom="true"
+     android:layout_marginEnd="99dp"
+     android:layout_marginRight="99dp"
+     android:layout_marginBottom="495dp"
+     android:layout_toStartOf="@+id/imageView3"
+     android:layout_toLeftOf="@+id/imageView3"
+     android:text="AIT"
+     android:textColor="#E91E63"
+    android:textSize="36sp"
+     android:textStyle="bold" />
+    </RelativeLayout>
+    
+    java code
+    package com.example.visitingcardapplication;
+    import androidx.appcompat.app.AppCompatActivity;
+    import android.os.Bundle;
+    public class MainActivity extends AppCompatActivity {
+     @Override
+     protected void onCreate(Bundle savedInstanceState) {
+     super.onCreate(savedInstanceState);
+     setContentView(R.layout.activity_main);
+     }
+    }
+    
+    
+    prgm02
+    <?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     tools:context=".MainActivity">
+     <TextView
+     android:layout_width="209dp"
+     android:layout_height="60dp"
+     android:layout_alignParentEnd="true"
+     android:layout_alignParentRight="true"
+     android:layout_alignParentBottom="true"
+    android:layout_marginEnd="108dp"
+     android:layout_marginRight="108dp"
+     android:layout_marginBottom="530dp"
+     android:text="Simple Calci"
+     android:textSize="36sp"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintLeft_toLeftOf="parent"
+     app:layout_constraintRight_toRightOf="parent"
+     app:layout_constraintTop_toTopOf="parent" />
+     <EditText
+     android:id="@+id/editText2"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentEnd="true"
+     android:layout_alignParentRight="true"
+     android:layout_alignParentBottom="true"
+     android:layout_marginEnd="115dp"
+     android:layout_marginRight="115dp"
+     android:layout_marginBottom="364dp"
+     android:ems="10"
+     android:hint="Enter the Number 2"
+     android:inputType="textPersonName"
+     android:text=""
+     android:textColorHighlight="#FFFFFF" />
+     <EditText
+     android:id="@+id/editText1"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentEnd="true"
+     android:layout_alignParentRight="true"
+     android:layout_alignParentBottom="true"
+     android:layout_marginEnd="110dp"
+     android:layout_marginRight="110dp"
+     android:layout_marginBottom="439dp"
+     android:ems="10"
+     android:hint="Enter the Number 1"
+     android:inputType="textPersonName"
+     android:text=""
+     android:textColorHighlight="#FFFFFF" />
+     <Button
+     android:id="@+id/button"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+    android:layout_alignParentEnd="true"
+     android:layout_alignParentRight="true"
+     android:layout_alignParentBottom="true"
+     android:layout_marginEnd="260dp"
+     android:layout_marginRight="260dp"
+     android:layout_marginBottom="175dp"
+     android:text="ADD"
+     android:textStyle="bold"
+     android:onClick="add"
+     app:backgroundTint="#E8F381" />
+     <Button
+     android:id="@+id/button3"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentEnd="true"
+     android:layout_alignParentRight="true"
+     android:layout_alignParentBottom="true"
+     android:layout_marginEnd="266dp"
+     android:layout_marginRight="266dp"
+     android:layout_marginBottom="61dp"
+     android:text="MUL"
+     android:onClick="mul"
+     app:backgroundTint="#A1FAA4" />
+     <Button
+     android:id="@+id/button4"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentEnd="true"
+     android:layout_alignParentRight="true"
+     android:layout_alignParentBottom="true"
+     android:layout_marginEnd="108dp"
+     android:layout_marginRight="108dp"
+     android:layout_marginBottom="63dp"
+     android:text="DIV"
+     android:onClick="div"
+     app:backgroundTint="#E6C28C" />
+     <Button
+     android:id="@+id/button2"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentEnd="true"
+     android:layout_alignParentRight="true"
+     android:layout_alignParentBottom="true"
+    android:layout_marginEnd="105dp"
+     android:layout_marginRight="105dp"
+     android:layout_marginBottom="182dp"
+     android:text="SUB"
+     android:onClick="sub"
+     app:backgroundTint="#ECA9A9" />
+     <TextView
+     android:id="@+id/tv1"
+     android:layout_width="86dp"
+     android:layout_height="61dp"
+     android:layout_alignParentEnd="true"
+     android:layout_alignParentRight="true"
+     android:layout_alignParentBottom="true"
+     android:layout_marginEnd="202dp"
+     android:layout_marginRight="202dp"
+     android:layout_marginBottom="274dp"
+     android:text="0"
+     android:textSize="36sp" />
+    </RelativeLayout>
+    
+    java
+    import androidx.appcompat.app.AppCompatActivity;
+    import android.os.Bundle;
+    import android.view.View;
+    import android.widget.Button;
+    import android.widget.EditText;
+    import android.widget.TextView;
+    public class MainActivity extends AppCompatActivity {
+    EditText e1,e2;
+    TextView tv;
+     @Override
+     protected void onCreate(Bundle savedInstanceState) {
+     super.onCreate(savedInstanceState);
+     setContentView(R.layout.activity_main);
+     e1 =(EditText)findViewById(R.id.editText1);
+     e2 = (EditText)findViewById(R.id.editText2);
+     tv= (TextView)findViewById(R.id.tv1);
+     }
+     public void add(View v){
+     int a1=Integer.parseInt(e1.getText().toString());
+     int a2= Integer.parseInt(e2.getText().toString());
+     int result=a1+a2;
+    tv.setText(""+result);
+     }
+     public void sub(View v){
+     int a1=Integer.parseInt(e1.getText().toString());
+     int a2= Integer.parseInt(e2.getText().toString());
+     int result=a1-a2;
+     tv.setText(""+result);
+     }
+     public void mul(View v){
+     int a1=Integer.parseInt(e1.getText().toString());
+     int a2= Integer.parseInt(e2.getText().toString());
+     int result=a1*a2;
+     tv.setText(""+result);
+     }
+     public void div(View v){
+     float a1=Integer.parseInt(e1.getText().toString());
+     float a2= Integer.parseInt(e2.getText().toString());
+     float result=a1/a2;
+     tv.setText(""+result);
+     }
+    }
+    
+    prgm04
+    <?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     tools:context=".MainActivity">
+     <Button
+     android:id="@+id/button1"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentEnd="true"
+     android:layout_alignParentRight="true"
+     android:layout_alignParentBottom="true"
+     android:layout_marginEnd="167dp"
+     android:layout_marginRight="167dp"
+     android:layout_marginBottom="409dp"
+     android:text="CLICK HERE" />
+    </RelativeLayout>
+    
+    java
+    package com.example.wallpaperchangeapplication;
+    import androidx.appcompat.app.AppCompatActivity;
+    import android.app.WallpaperManager;
+    import android.graphics.Bitmap;
+    import android.graphics.BitmapFactory;
+    import android.graphics.drawable.BitmapDrawable;
+    import android.graphics.drawable.Drawable;
+    import android.os.Bundle;
+    import android.os.Handler;
+    import android.view.View;
+    import android.widget.Button;
+    import android.widget.Toast;
+    import java.io.IOException;
+    import java.util.Timer;
+    import java.util.TimerTask;
+    public class MainActivity extends AppCompatActivity {
+     Button wallpaperChange;
+     Timer mytimer;
+     Drawable drawable;
+     WallpaperManager wpm;
+     int prev=1;
+     @Override
+     protected void onCreate(Bundle savedInstanceState) {
+     super.onCreate(savedInstanceState);
+     setContentView(R.layout.activity_main);
+     mytimer=new Timer();
+     wpm = WallpaperManager.getInstance(this);
+     wallpaperChange=(Button)findViewById(R.id.button1);
+     wallpaperChange.setOnClickListener(new View.OnClickListener() {
+     @Override public void onClick(View view) {
+     setwallpaper();
+     }
+     });
+     }
+     private void setwallpaper() {
+     Toast.makeText(this,"setting Wallpaper please wait.",Toast.LENGTH_LONG).show();
+     mytimer.schedule(new TimerTask() {
+     @Override
+     public void run()
+     {
+     if(prev==1) {
+     drawable = getResources().getDrawable(R.drawable.i1); prev = 2;
+     }
+     else if(prev==2) {
+     drawable = getResources().getDrawable(R.drawable.i2); prev=3;
+     }
+    else if(prev==3) {
+     drawable = getResources().getDrawable(R.drawable.i3); prev=4;
+     }
+     else if(prev==4) {
+     drawable = getResources().getDrawable(R.drawable.i4); prev=5;
+     }
+     else if(prev==5) {
+     drawable = getResources().getDrawable(R.drawable.i5); prev=1;
+     }
+     Bitmap wallpaper = ((BitmapDrawable)drawable).getBitmap(); try {
+     wpm.setBitmap(wallpaper);
+     }
+     catch (IOException e)
+     { e.printStackTrace();
+     }
+     }
+     },0,30000);
+     }
+     }
+    
+    
+    prgm05
+    <?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     tools:context=".MainActivity">
+     <TextView
+     android:id="@+id/textView1"
+     android:layout_width="332dp"
+     android:layout_height="wrap_content"
+     android:layout_alignParentStart="true"
+     android:layout_alignParentLeft="true"
+    android:layout_alignParentEnd="true"
+     android:layout_alignParentRight="true"
+     android:layout_alignParentBottom="true"
+     android:layout_marginStart="41dp"
+     android:layout_marginLeft="41dp"
+     android:layout_marginEnd="38dp"
+     android:layout_marginRight="38dp"
+     android:layout_marginBottom="516dp"
+     android:text="Counter Application"
+     android:textSize="36sp"
+     android:textStyle="bold" />
+     <Button
+     android:id="@+id/button1"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentEnd="true"
+     android:layout_alignParentRight="true"
+     android:layout_alignParentBottom="true"
+     android:layout_marginEnd="236dp"
+     android:layout_marginRight="236dp"
+     android:layout_marginBottom="89dp"
+     android:text="Start"
+     android:textSize="30sp"
+     app:backgroundTint="#4CAF50" />
+     <Button
+     android:id="@+id/button2"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentEnd="true"
+     android:layout_alignParentRight="true"
+     android:layout_alignParentBottom="true"
+     android:layout_marginEnd="55dp"
+     android:layout_marginRight="55dp"
+     android:layout_marginBottom="92dp"
+     android:text="STOP"
+     android:textSize="30sp"
+     app:backgroundTint="#EC5449" />
+     <TextView
+     android:id="@+id/textView2"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentEnd="true"
+     android:layout_alignParentRight="true"
+    android:layout_alignParentBottom="true"
+     android:layout_marginEnd="165dp"
+     android:layout_marginRight="165dp"
+     android:layout_marginBottom="434dp"
+     android:text="counter value"
+     android:textSize="18sp"
+     android:textStyle="bold" />
+    </RelativeLayout>
+    
+    java
+    package com.example.counterapplication;
+    import androidx.appcompat.app.AppCompatActivity;
+    import android.os.Bundle;
+    import android.os.Handler;
+    import android.view.View;
+    import android.widget.Button;
+    import android.widget.TextView;
+    public class MainActivity extends AppCompatActivity {
+     TextView txtCounter;
+     Button btn_start,btn_stop;
+     int count=0;
+     Handler customHandler=new Handler();
+     @Override
+     protected void onCreate(Bundle savedInstanceState) {
+     super.onCreate(savedInstanceState);
+     setContentView(R.layout.activity_main);
+     txtCounter= (TextView)findViewById(R.id.textView2);
+     btn_start =(Button)findViewById(R.id.button1);
+     btn_stop=(Button)findViewById(R.id.button2);
+     btn_start.setOnClickListener(new View.OnClickListener() {
+     @Override
+     public void onClick(View v) {
+     customHandler.postDelayed(updateTimerThread,0);
+     }
+     });
+     btn_stop.setOnClickListener(new View.OnClickListener() {
+     @Override
+     public void onClick(View v) {
+     customHandler.removeCallbacks(updateTimerThread);
+     }
+     });
+     }
+    private final Runnable updateTimerThread =new Runnable() {
+     @Override
+     public void run() {
+     txtCounter.setText(""+count);
+     customHandler.postDelayed(this,1000);
+     count++;
+     }
+     };
+     }
+    
+    
+    prgm07
+    <?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     tools:context=".MainActivity">
+     <TextView
+     android:id="@+id/textView"
+     android:layout_width="335dp"
+     android:layout_height="wrap_content"
+     android:layout_alignParentEnd="true"
+     android:layout_alignParentBottom="true"
+     android:layout_marginEnd="21dp"
+     android:layout_marginBottom="486dp"
+     android:text="Text2Speech"
+     android:textSize="30sp" />
+     <EditText
+     android:id="@+id/editText"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentEnd="true"
+     android:layout_alignParentBottom="true"
+    android:layout_marginEnd="142dp"
+     android:layout_marginBottom="377dp"
+     android:ems="10"
+     android:hint="Enter text here"
+     android:inputType="textPersonName" />
+     <Button
+     android:id="@+id/convert"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentEnd="true"
+     android:layout_alignParentBottom="true"
+     android:layout_marginEnd="196dp"
+     android:layout_marginBottom="236dp"
+     android:onClick="convert"
+     android:background="#6CEC71"
+     android:text="CONVERT" />
+    </RelativeLayout>
+    
+    java
+    package com.example.texttospeechapplication;
+    import androidx.appcompat.app.AppCompatActivity;
+    import android.os.Bundle;
+    import android.speech.tts.TextToSpeech;
+    import android.view.View;
+    import android.widget.EditText;
+    import java.util.Locale;
+    public class MainActivity extends AppCompatActivity {
+     EditText e1;
+     TextToSpeech t1;
+     @Override
+     protected void onCreate(Bundle savedInstanceState) {
+     super.onCreate(savedInstanceState);
+     setContentView(R.layout.activity_main);
+     e1=findViewById(R.id.editText);
+     t1=new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener() 
+    {
+     @Override
+     public void onInit(int status) {
+    if(status!=TextToSpeech.ERROR){
+     t1.setLanguage(Locale.UK);
+     }
+     }
+     });
+     }
+     public void convert(View V){
+     String tospeak=e1.getText().toString();
+     t1.speak(tospeak,TextToSpeech.QUEUE_FLUSH,null);
+     }
+    }
+    
+    prgm08
+    <?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:id="@+id/Button11"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:backgroundTint="#4CAF50"
+     tools:context=".MainActivity">
+     <Button
+     android:id="@+id/button8"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentEnd="true"
+     android:layout_alignParentBottom="true"
+     android:layout_marginEnd="169dp"
+     android:layout_marginBottom="201dp"
+     android:backgroundTint="#4CAF50"
+     android:onClick="inputNumber"
+    android:text="8" />
+     <Button
+     android:id="@+id/Button10"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentEnd="true"
+     android:layout_alignParentBottom="true"
+     android:layout_marginEnd="286dp"
+     android:layout_marginBottom="115dp"
+     android:onClick="inputNumber"
+     android:backgroundTint="#4CAF50"
+     android:text="*" />
+     <Button
+     android:id="@+id/saveBtn"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentEnd="true"
+     android:layout_alignParentBottom="true"
+     android:layout_marginEnd="80dp"
+     android:layout_marginBottom="38dp"
+     android:backgroundTint="#CDDC39"
+     android:text="Save" />
+     <Button
+     android:id="@+id/callBtn"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentEnd="true"
+     android:layout_alignParentBottom="true"
+     android:layout_marginEnd="209dp"
+     android:layout_marginBottom="35dp"
+     android:backgroundTint="#F44336"
+     android:text="Call" />
+     <Button
+     android:id="@+id/clearBtn12"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentEnd="true"
+     android:layout_alignParentBottom="true"
+     android:layout_marginEnd="159dp"
+     android:layout_marginBottom="116dp"
+     android:backgroundTint="#4CAF50"
+     android:onClick="inputNumber"
+     android:text="0" />
+     <Button
+    android:id="@+id/Button7"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentEnd="true"
+     android:layout_alignParentBottom="true"
+     android:layout_marginEnd="288dp"
+     android:layout_marginBottom="201dp"
+     android:onClick="inputNumber"
+     android:backgroundTint="#4CAF50"
+     android:text="7" />
+     <Button
+     android:id="@+id/Button9"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentEnd="true"
+     android:layout_alignParentBottom="true"
+     android:layout_marginEnd="38dp"
+     android:layout_marginBottom="201dp"
+     android:onClick="inputNumber"
+     android:backgroundTint="#4CAF50"
+     android:text="9" />
+     <EditText
+     android:id="@+id/phoneNumberEditText"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentEnd="true"
+     android:layout_alignParentBottom="true"
+     android:layout_marginEnd="172dp"
+     android:layout_marginBottom="543dp"
+     android:onClick="inputNumber"
+     android:ems="10"
+     android:hint="Phone Number"
+     android:inputType="phone" />
+     <Button
+     android:id="@+id/clearBtn"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentEnd="true"
+     android:layout_alignParentBottom="true"
+     android:layout_marginEnd="48dp"
+     android:layout_marginBottom="544dp"
+     android:backgroundTint="#E91E63"
+     android:text="Clear" />
+     <Button
+     android:id="@+id/Button12"
+    android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentEnd="true"
+     android:layout_alignParentBottom="true"
+     android:layout_marginEnd="38dp"
+     android:onClick="inputNumber"
+     android:layout_marginBottom="108dp"
+     android:backgroundTint="#4CAF50"
+     android:text="#" />
+     <Button
+     android:id="@+id/Button1"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentEnd="true"
+     android:layout_alignParentBottom="true"
+     android:layout_marginEnd="291dp"
+     android:onClick="inputNumber"
+     android:layout_marginBottom="380dp"
+     android:backgroundTint="#4CAF50"
+     android:text="1" />
+     <Button
+     android:id="@+id/Button4"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentEnd="true"
+     android:layout_alignParentBottom="true"
+     android:layout_marginEnd="289dp"
+     android:onClick="inputNumber"
+     android:layout_marginBottom="296dp"
+     android:backgroundTint="#4CAF50"
+     android:text="4" />
+     <Button
+     android:id="@+id/Button5"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentEnd="true"
+     android:layout_alignParentBottom="true"
+     android:layout_marginEnd="170dp"
+     android:onClick="inputNumber"
+     android:layout_marginBottom="295dp"
+     android:backgroundTint="#4CAF50"
+     android:text="5" />
+     <Button
+     android:id="@+id/Button6"
+     android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+     android:layout_alignParentEnd="true"
+     android:layout_alignParentBottom="true"
+     android:layout_marginEnd="35dp"
+     android:layout_marginBottom="290dp"
+     android:onClick="inputNumber"
+     android:backgroundTint="#4CAF50"
+     android:text="6" />
+     <Button
+     android:id="@+id/Button2"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentEnd="true"
+     android:layout_alignParentBottom="true"
+     android:layout_marginEnd="172dp"
+     android:onClick="inputNumber"
+     android:layout_marginBottom="380dp"
+     android:backgroundTint="#4CAF50"
+     android:text="2" />
+     <Button
+     android:id="@+id/Button3"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentEnd="true"
+     android:layout_alignParentBottom="true"
+     android:layout_marginEnd="48dp"
+     android:onClick="inputNumber"
+     android:layout_marginBottom="380dp"
+     android:backgroundTint="#4CAF50"
+     android:text="3" />
+    </RelativeLayout>
+    
+    java
+    package com.example.callsaveapplication;
+    import androidx.appcompat.app.AppCompatActivity;
+    import android.content.Intent;
+    import android.net.Uri;
+    import android.os.Bundle;
+    import android.provider.ContactsContract;
+    import android.view.View;
+    import android.widget.Button;
+    import android.widget.EditText;
+    import java.net.URI;
+    public class MainActivity extends AppCompatActivity {
+    EditText phoneNumberEditText;
+    Button clearBtn,saveBtn,callBtn;
+     @Override
+     protected void onCreate(Bundle savedInstanceState) {
+     super.onCreate(savedInstanceState);
+     setContentView(R.layout.activity_main);
+     phoneNumberEditText=findViewById(R.id.phoneNumberEditText);
+     clearBtn=findViewById(R.id.clearBtn);
+     callBtn=findViewById(R.id.callBtn);
+     saveBtn=findViewById(R.id.saveBtn);
+     clearBtn.setOnClickListener(new View.OnClickListener() {
+     @Override
+     public void onClick(View v) {
+     phoneNumberEditText.setText("");
+     }
+     });
+     callBtn.setOnClickListener(new View.OnClickListener() {
+     @Override
+     public void onClick(View v) {
+     String phoneNumber=phoneNumberEditText.getText().toString();
+     Intent intent= new Intent(Intent.ACTION_DIAL);
+     intent.setData(Uri.parse("tel:"+phoneNumber));
+     startActivity(intent);
+     }
+     });
+     saveBtn.setOnClickListener(new View.OnClickListener() {
+     @Override
+     public void onClick(View v) {
+     String phoneNumber=phoneNumberEditText.getText().toString();
+     Intent intent=new Intent(Intent.ACTION_INSERT);
+     intent.setType(ContactsContract.Contacts.CONTENT_TYPE);
+     intent.putExtra(ContactsContract.Intents.Insert.PHONE,phoneNumber);
+     startActivity(intent);
+     }
+     });
+    }
+     public void inputNumber(View v){
+     Button btn=(Button)v;
+     String digit=btn.getText().toString();
+     String phoneNumber=phoneNumberEditText.getText().toString();
+     phoneNumberEditText.setText(phoneNumber+digit);
+     }
+    }
+    
+    
+    
+    
+    </textarea>
